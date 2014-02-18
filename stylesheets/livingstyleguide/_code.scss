@@ -1,5 +1,6 @@
 .livingstyleguide--code-span,
 .livingstyleguide--code-block {
+  @extend %livingstyleguide--reset;
   background: $livingstyleguide--code-background-color;
   color: $livingstyleguide--code-color;
   display: inline;
@@ -96,6 +97,7 @@
 }
 
 .livingstyleguide--code-highlight {
+  @extend %livingstyleguide--reset;
   background-color: $livingstyleguide--highlight-color;
   display: inline;
   vertical-align: baseline;
@@ -103,6 +105,7 @@
 }
 
 .livingstyleguide--code-highlight-block {
+  @extend %livingstyleguide--reset;
   @extend .livingstyleguide--code-highlight;
   display: block;
 }
